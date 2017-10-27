@@ -65,6 +65,7 @@ router.post('/register', upload.any(), function (req, res) {
     var newUser = new User({
       name: name,
       username: username,
+      mobile:mobile,
       email: email,
       password: password,
       mobile: mobile
